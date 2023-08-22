@@ -1,0 +1,53 @@
+/* .search__result {
+    height: 65vh;
+    width: 50vh;
+    background-image: url('../media/bg3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
+
+.text__header{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-family: Poppins;
+    letter-spacing: 10px
+}
+
+.table__detail {
+    width: 85%;
+}
+
+.card-about{
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    max-width: 80vw;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+
+.header_about > p{
+    color: #202F4E;
+    font-size: 25px;
+    font-weight:900;
+    font-family: Poppins;
+    letter-spacing: 10px;
+}
+
+.isi_about > p{
+    color: #202F4E;
+    font-size: 16px;
+    font-family: Questrial;
+    line-height: 1.8;
+}
+
+@media screen and (max-width: 768px) {
+    .table__detail {
+        width: 100%;
+    }
+}

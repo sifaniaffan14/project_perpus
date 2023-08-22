@@ -1,0 +1,73 @@
+body {
+    max-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../media/loginbg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a {
+    text-decoration: none !important;
+    color: #202F4E;
+}
+
+.judul {
+    color: #202F4E;
+    font-weight: bolder;
+}
+
+.card__form {
+    width: 35%;
+    height: 50%;
+}
+
+.submit {
+    background-color: #202F4E;
+}
+
+.icon__ {
+    aspect-ratio: 1/1 !important;
+    border-radius: 100%;
+}
+
+.username__login,
+.password__login {
+    padding-left: 40px;
+}
+
+.icon__ {
+    top: 50%;
+    left: 0;
+    transform: translate(8px, -45%);
+}
+
+.see__pass {
+    right: 0%;
+    top: 50%;
+    transform: translate(-10px, -45%);
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    padding: 5px;
+    background-color: #202F4E;
+    color: #eeeeee;
+    text-align: center;
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .card__form {
+        width: 90%;
+    }
+
+    footer {
+        font-size: small;
+    }
+}
