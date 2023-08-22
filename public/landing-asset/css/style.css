@@ -1,0 +1,159 @@
+* {
+    scrollbar-color: grey;
+    scrollbar-width: thin;
+}
+
+body {
+    max-width: 100vw;
+    max-height: 100vh;
+    background: rgb(48, 100, 132);
+    background: linear-gradient(90deg, rgba(48, 100, 132, 1) 0%, rgba(48, 137, 121, 1) 57%, rgba(32, 137, 121, 1) 100%);
+
+}
+
+.text__custom {
+    color: #306484;
+}
+
+.logo__navbar {
+    width: 10%;
+    min-width: 80px;
+}
+
+.btn__login {
+    width: 100px;
+    background-color: #306484;
+    color: #eaeaea;
+}
+
+.hero__1 {
+    background: rgb(48, 100, 132);
+    background: linear-gradient(90deg, rgba(48, 100, 132, 1) 0%, rgba(48, 137, 121, 1) 57%, rgba(32, 137, 121, 1) 100%);
+    height: 40vh;
+    min-height: 280px;
+}
+
+.btn__search {
+    background-color: #FFA600;
+    color: #eaeaea;
+    aspect-ratio: 1/1 !important;
+    font-weight: 800 !important;
+    margin-left: -40px;
+}
+
+.search__input {
+    text-indent: 18px;
+    font-size: 13px;
+}
+
+.category__ {
+    margin-right: -40px;
+}
+
+.carousel__container {
+    height: 40px !important;
+}
+
+.book__ {
+    width: fit-content !important;
+}
+
+.gallery {
+    height: 45vh;
+    background-image: url('../media/bg3.png');
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.prevnext {
+    width: 100%;
+    padding: 0 3%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    justify-content: space-between;
+    left: 0;
+    bottom: 25%;
+    z-index: 1;
+}
+
+.prevnext button {
+    width: 30px;
+    aspect-ratio: 1/1 !important;
+    padding: 0;
+    background-color: white;
+    border: none;
+    border-radius: 100%;
+}
+
+.swiper {
+    width: 85%;
+    height: 30%;
+    z-index: 10;
+}
+
+.swiper-wrapper {
+    width: fit-content;
+}
+
+.swiper-slide {
+    font-size: 18px;
+    overflow: hidden;
+    background: transparent;
+    padding-top: 20px;
+    width: fit-content !important;
+    max-height: 100%;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center !important;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center !important;
+}
+
+.swiper-slide img {
+    height: 140px;
+}
+
+
+.swiper-slide:nth-child(2n) {
+    width: 60%;
+}
+
+.swiper-slide:nth-child(3n) {
+    width: 40%;
+}
+
+.bg__custom{
+    background: #FFD540;
+    height: 20px;
+    padding: 0;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 6px;
+    height: auto;
+    background-color: #306484;
+}
+
+@media screen and (max-width: 600px) {
+    .swiper {
+        width: 30px;
+        height: 30%;
+        z-index: 10;
+    }
+}

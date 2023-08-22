@@ -1,0 +1,22 @@
+body {
+    max-width: 100vh;
+    min-height: 100vh;
+    background: #306484;
+}
+
+.search__result {
+    height: 65vh;
+    background-image: url('../media/bg3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.table__detail {
+    width: 75%;
+}
+
+@media screen and (max-width: 768px) {
+    .table__detail {
+        width: 100%;
+    }
+}

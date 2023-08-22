@@ -1,0 +1,137 @@
+.pengajuanTop{
+    height: 10vw;
+}
+.bar{
+    margin: 2vw 0 1vw 0;
+    height:4vw
+}
+
+.bar a{
+    float: left;
+    margin-right: 1vw;
+    width:max-content
+}
+.listPeminjaman{
+    margin-top: 2vw;
+}
+.box1{
+    margin-top: 0.5vw;
+    padding: 20px;
+    color: black;
+}
+.itemPeminjaman{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.itemPeminjaman .data{
+    width: 50%;
+    display: flex;
+    padding: 0 0;
+}
+.itemPeminjaman .data .check{
+    height: 100%;
+    margin: 0;
+ }
+ .itemPeminjaman .data .check input{
+     transform: scale(1.5);
+     margin-right: 1vw;
+  }
+  .itemPeminjaman .status{
+    width: 20%;
+    text-align: center;
+    height: max-content;
+}
+
+
+.custom-combobox {
+    position: relative;
+    display: inline-block;
+  }
+  .custom-combobox-toggle {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin-left: -1px;
+    padding: 0;
+  }
+  .custom-combobox-input {
+    margin: 0;
+    padding: 5px 10px;
+  }
+
+  /* peminjaman buku */
+  .inputan_no_induk{
+    text-align: center;
+  }
+
+  .inputan_no_induk input{
+    width: 60%;
+    padding: 0.5vw 1vw;
+    /* outline: none; */
+    border:solid 1px #ccc;
+    border-radius: 20px;
+  }
+
+  .detail_peminjam{
+    margin-top: 2vw;
+  }
+
+
+  .inputan_peminjaman_buku{
+    text-align: center;
+    margin-bottom: 2vw;
+  }
+
+  .inputan_peminjaman_buku input{
+    width: 80%;
+    padding: 0.5vw 1vw;
+    /* outline: none; */
+    border:solid 1px #ccc;
+    border-radius: 20px;
+  }
+
+  .inputan_peminjaman_buku button{
+    width: 15%;
+  }
+
+  /* DataTable */
+  .active>.page-link, .page-link.active{
+    background-color: #264A8A;
+  }
+
+  .dataTables_filter label{
+    display: none;
+  }
+
+  /* sidebar */
+  .app-sidebar-menu .app-sidebar-wrapper .menu-column .menu-item:hover{
+      background-color: #0e2c62;
+  }
+
+  .app-sidebar-menu .app-sidebar-wrapper .menu-column .menu-item{
+      background-color: #264A8A;
+  }
+
+  .app-sidebar-menu .app-sidebar-wrapper .menu-column .menu-item.active{
+      background-color: #0e2c62;
+      color:#fff
+  }
+  
+  .menu-title {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  /* end sidebar */
+
+  .select2-container--default .select2-selection--single {
+    border: 0px;
+    background-color: #F6F6F6;
+    height: 5vh;
+    padding: 1vh;
+    width: 40vh;
+  }
+  .select2-selection__arrow {
+      margin-top: 1vh;
+  }
